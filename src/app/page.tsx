@@ -23,7 +23,7 @@ export default function Home() {
           <CharacterCastSlider />
         </div>
 
-        <div className="bg-[url('/Star.png')] bg-contain bg-center bg-no-repeat h-auto">
+        <div className="bg-double2">
           {/* Episodes section */}
           <EpisodeCard />
 

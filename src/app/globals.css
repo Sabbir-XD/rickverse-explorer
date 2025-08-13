@@ -31,7 +31,13 @@
   background-size: auto, auto;
 }
 
+.bg-double2 {
+  background-image: url("/Star.png"), url("/Spiral.png");
+  background-position: center, right top; /* 1st img center cover, 2nd img top-right */
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, auto; /* 1st img cover whole area, 2nd img keep original size */
+}
+
 body {
   font-family: "TTTravels", sans-serif;
 }
-
