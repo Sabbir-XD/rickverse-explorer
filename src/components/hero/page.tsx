@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { FaPlay } from "react-icons/fa";
 
 export default function Page() {
@@ -70,10 +71,16 @@ export default function Page() {
 
       <div className="flex flex-col-reverse md:flex-row justify-start md:justify-center items-start md:items-center gap-2 md:gap-10 ml-4">
         {/* Button with Play Icon */}
-        <button className="flex items-center gap-2 bg-gradient-to-r from-[#9DFE00] to-[#14D9E5] rounded-full px-8 py-3 text-[10px] sm:text-xl text-white font-semibold mt-4 md:mt-10 hover:scale-105 transition-transform duration-200">
-          <FaPlay className="text-sm sm:text-lg" />
-          Watch Now
-        </button>
+
+        <Link
+          target="_blank"
+          href="https://www.youtube.com/watch?v=KQ9Cgdsa9tc"
+        >
+          <button className="flex items-center gap-2 bg-gradient-to-r from-[#9DFE00] to-[#14D9E5] rounded-full px-8 py-3 text-[10px] sm:text-xl text-white font-semibold mt-4 md:mt-10 hover:scale-105 transition-transform duration-200">
+            <FaPlay className="text-sm sm:text-lg" />
+            Watch Now
+          </button>
+        </Link>
 
         {/* Paragraph */}
         <p className="text-[10px] md:text-sm text-[#14D9E5] mt-2 md:mt-8">

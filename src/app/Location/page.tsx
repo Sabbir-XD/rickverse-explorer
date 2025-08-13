@@ -39,7 +39,7 @@ export default function LocationSlider() {
       >
         {locations.map((loc) => (
           <SwiperSlide key={loc.id}>
-            <div className="relative rounded-sm w-full max-w-xs h-[50px] md:h-[96px] mx-auto">
+            <div className="relative rounded-sm w-full max-w-xs h-[60px] md:h-[96px] mx-auto">
               {/* SVG border shape */}
               <svg
                 viewBox="0 0 200 240"
@@ -57,10 +57,10 @@ export default function LocationSlider() {
 
               {/* Content */}
               <div className="absolute top-0 left-0 w-full h-full p-4 flex flex-col justify-center items-start z-10">
-                <p className="text-[9px] md:text-[14px] text-white font-bold">
+                <p className="text-[10px] md:text-[14px] text-white font-bold">
                   #{loc.id}
                 </p>
-                <p className="text-[10px] md:text-[16px] text-white">
+                <p className="text-[12px] md:text-[16px] text-white">
                   {loc.name}
                 </p>
               </div>
