@@ -9,7 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        tt: ['TT Travels', 'sans-serif'],
+        tt: ["TT Travels", "sans-serif"],
+      },
+      colors: {
+        neonGreen: "#00FF9F",
+        darkBg: "#0B0D17",
       },
     },
   },

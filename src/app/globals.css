@@ -1,141 +1,37 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* TT Travels Font Faces */
+/* public/Font/TTTravels-Regular.ttf */
 @font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-Thin.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-ThinItalic.ttf') format('truetype');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-ExtraLight.ttf') format('truetype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-ExtraLightItalic.ttf') format('truetype');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-Regular.ttf') format('truetype');
+  font-family: "TTTravels";
+  src: url("/Font/TTTravels-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-DemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-DemiBoldItalic.ttf') format('truetype');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-Bold.ttf') format('truetype');
+  font-family: "TTTravels";
+  src: url("/Font/TTTravels-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-ExtraBold.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-ExtraBoldItalic.ttf') format('truetype');
-  font-weight: 800;
+  font-family: "TTTravels";
+  src: url("/Font/TTTravels-BoldItalic.ttf") format("truetype");
+  font-weight: 900;
   font-style: italic;
-  font-display: swap;
 }
 
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
+.bg-double {
+  background-image: url("/Cast Details/Background.png"),
+    url("/Cast Details/Star.png");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
 }
-@font-face {
-  font-family: 'TT Travels';
-  src: url('/Font/TTTravels-BlackItalic.ttf') format('truetype');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
+
+body {
+  font-family: "TTTravels", sans-serif;
 }
 
