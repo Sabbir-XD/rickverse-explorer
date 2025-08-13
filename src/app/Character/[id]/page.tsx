@@ -78,7 +78,7 @@ export default async function CharacterDetailPage(props: {
             </div>
             <div className="bg-[#1e293b] p-4 rounded-lg border border-[#9DFE00]">
               <Image
-                src="/PNG/species.png"
+                src="/PNG/Species.png"
                 alt="species"
                 width={30}
                 height={30}
@@ -100,7 +100,7 @@ export default async function CharacterDetailPage(props: {
 
           {/* Origin */}
           <div className="bg-[#1e293b] p-4 rounded-lg border border-[#9DFE00]">
-            <Image src="/PNG/Origin.png" alt="Origin" width={30} height={30} />
+            <Image src="/PNG/origin.png" alt="Origin" width={30} height={30} />
             <p className="text-white font-bold">Origin</p>
             <p>{char.origin.name}</p>
           </div>
